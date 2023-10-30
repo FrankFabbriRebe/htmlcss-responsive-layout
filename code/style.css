@@ -10,6 +10,8 @@
     font-family: 'PT Sans';
 }
 
+/* mobile first */
+
 /* header style */
 header  {
     background-color: rgb(0, 132, 253);
@@ -28,4 +30,37 @@ nav {
     align-items: center;
 }
 
+.menu_desktop   {
+    display: none;
+}
 
+/* desktop version */
+@media all and (min-width: 768px)   {
+
+    /* header style */
+    nav    {
+        width: 70%;
+    }
+
+    .menu_mobile_tablet    {
+        display: none;
+    }
+
+    .menu_desktop   {
+        display: flex;
+    }
+
+    .menu_desktop ul    {
+        list-style: none;
+    }
+
+    .menu_desktop li    {
+        display: inline;
+    }    
+
+    .menu_desktop a     {
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+    }
+}
