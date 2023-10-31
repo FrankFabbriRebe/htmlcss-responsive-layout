@@ -239,7 +239,6 @@ nav {
     width: 90%;
     margin: auto;
     /* debug */
-    height: 100%;
     border: 3px solid black;
 }
 
@@ -376,5 +375,14 @@ nav {
     /* testiomonial section */
     .testimonials_container {
         width: 70%;
+    }
+
+    /* benefits section */
+    .benefits_card_container    {
+        width: 70%;
+    }
+
+    .benefits_cards {
+        width: calc(100% / 3 - 1rem);
     }
 }
