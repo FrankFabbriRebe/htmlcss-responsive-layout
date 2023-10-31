@@ -43,7 +43,7 @@ nav {
 /* intro style */
 .intro  {
     padding-top: 10vh;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .intro_container    {
@@ -104,6 +104,81 @@ nav {
 .simple p   {
     padding-bottom: 2rem;
 }
+
+/* strategic planning section */
+.strategy  {
+    background-color: #9792E5;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+
+.strategy_container {
+    width: 90%;
+    margin: auto;
+    /* debug */
+    border: 5px solid yellow;
+}
+
+/* start style content a */
+.strategy_content_a {
+    padding-top: 5rem;
+    /* debug */
+    border: 3px solid black;
+}
+
+.strategy_content_a img {
+    width: 100%;
+}
+
+.content_a_text {
+    color: white;
+    margin-top: 8rem;
+    text-align: left;
+    /* debug */
+    border: 3px solid blue;
+}
+
+.content_a_text p   {
+    margin-top: 5rem;
+}
+/* end style content a */
+
+/* start style content b */
+.strategy_content_b {
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    border-radius: 25px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.strategy_content_b img {
+    width: 100%;
+}
+
+.strategy_content_b h2  {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.strategy_content_b p   {
+    font-style: italic;
+}
+
+.arrow_button   {
+    margin: 5rem auto;
+    background-color: #9792E5;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50%;
+}
+/* end style content b */
+
+
+
+
+
 
 
 /************************************
