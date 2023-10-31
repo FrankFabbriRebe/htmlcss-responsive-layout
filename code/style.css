@@ -238,19 +238,51 @@ nav {
 .benefits_card_container    {
     width: 90%;
     margin: auto;
-    /* debug */
-    border: 3px solid black;
+    padding-bottom: 3rem;
 }
 
 .benefits_cards {
+    padding: 3rem;
     background-color: white;
     border-radius: 25px;
     width: 100%;
     margin-bottom: 3rem;
-    /* debug */
-    height: 500px;
 }
 
+/* benefits card contnet style */
+.benefits_card_content  {
+    font-size: 2rem;
+    color: #9792E5;
+    width: 90%;
+    margin: auto;
+}
+
+.benefits_card_content span {
+    height: 50%;
+    margin-bottom: 3rem;
+}
+
+.benefits_card_content h2   {
+    margin-bottom: 2rem;
+}
+
+.benefits_card_content p    {
+    margin-bottom: 3rem;
+    color: black;
+    font-size: 1rem;
+}
+
+.more_button    {
+    background-color: #9792E5;
+    border-radius: 25px;
+    width: fit-content;
+    padding: 1rem 4rem;
+}
+
+.more_button a {
+    text-decoration: none;
+    color: white;
+}
 
 /************************************
             TABLET VERSION
