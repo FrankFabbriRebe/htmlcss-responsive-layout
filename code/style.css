@@ -11,6 +11,10 @@
     font-size: 10px;
 }
 
+a   {
+    text-decoration: none;
+}
+
 /************************************
              MOBILE FIRST
 ************************************/
@@ -187,9 +191,7 @@ nav {
     padding: 1rem;
     border-radius: 50%;
 }
-/* end style content b */
 
-/* end style strategic planning section */
 
 
 /* start style testimonial section */
@@ -227,9 +229,24 @@ nav {
     width: 150px;
     border-radius: 50%;
     margin:auto;
-    background-image: url();
-    /* debug */
-    border: 2px solid black;
+}
+
+.first  {
+    background-image: url(../assets/img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.second {
+    background-image: url(../assets/img/testimonial2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.third  {
+    background-image: url(../assets/img/testimonial3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .testimonial_review {
@@ -329,7 +346,7 @@ nav {
 }
 
 .about_us_text p    {
-    line-height: 5rem;
+    line-height: 3rem;
 }
 
 .about_us_img {
@@ -346,7 +363,9 @@ nav {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 2px solid black;
+    background-image: url(../assets/img/about.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .about_us_img_top i {
@@ -501,13 +520,14 @@ footer  {
     /* about us section */
     .about_us_container {
         display: flex;
-        align-items:first baseline;
+        align-items: start;
     }
 
 
     .about_us_img   {
         height: fit-content;
         margin-left: 5rem;
+        padding-top: 0;
     }
 
 }
