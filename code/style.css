@@ -289,6 +289,19 @@ nav {
         align-items: center;
     }
 
+    /* benefits section */
+    .benefits_card_container  {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .benefits_cards {
+        width: calc(50% - 1rem);
+        margin-bottom: 0;
+    }
+
 }
 
 
