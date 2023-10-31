@@ -256,6 +256,15 @@ nav {
         width: calc(100% / 3 - 1rem);
     }
 
+    /* testimonial section */
+
+    .testimonal_card_content    {
+        display: flex;
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+
 }
 
 
