@@ -55,24 +55,30 @@ nav {
 .card   {
     border-radius: 25px;
     background-color:rgb(181, 221, 255);
-    margin: 1rem auto;
+    margin: 2rem auto;
     width: 100%;
 }
 
+.demo_container {
+    width: 90%;
+    margin: auto;
+}
 
-.intro_container    h2      {
+
+.intro  h2      {
     color: rgb(5, 134, 253);
     text-align: center;
     padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
-.card p  {
+#p p   {
+    padding-bottom: 2rem;
     text-align: left;
-    padding: 1rem 2rem 2rem 2rem;
 }
 
-.intro_container .app_store {
+
+.demo_text .app_store {
     background-color: rgb(0, 132, 253);
     border-radius: 25px;
     width: fit-content;
@@ -93,8 +99,18 @@ nav {
     width: 100%;
 }
 
+.card_container {
+    width: 90%;
+    margin: auto;
+}
+
+.card_container .i  {
+    padding-top: 2rem;
+}
+
 .card p {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .card   .i   {
@@ -453,6 +469,8 @@ footer  {
         width: calc(100% / 3 * 2 - 1rem);
     }
 
+   
+
     .card   {
         margin: 0;
         width: calc(100% / 3 - 1rem);
@@ -531,19 +549,23 @@ footer  {
         width: 70%;
     }
 
-    #demo   {
+    .demo_container {
         display: flex;
-        align-items: last baseline;
+        align-items:end;
     }
 
     #demo .demo_text    {
         width: 50%;
-        padding-left: 2rem;
-        height: fit-content;
     }
 
     #demo   .demo_img   {
         width: 50%;
+        height: fit-content;
+    }
+
+    #demo    {
+        display: flex;
+        align-items: end;
     }
 
     /* strategic palnning section */
