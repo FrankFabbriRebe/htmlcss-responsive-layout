@@ -172,8 +172,59 @@ nav {
 }
 /* end style content b */
 
+/* end style strategic planning section */
 
+/* start style testimonial section */
+.testimonials   {
+    font-size: 2rem;
+    padding-top: 5rem;
+    /* debug */
+    background-color: yellow;
+    height: 2000px;
+}
 
+.testimonials_container  {
+    width: 90%;
+    margin: auto;
+    /* debug */
+    border: 5px solid black;
+    height: 100%;
+}
+
+.testimonial_intro  {
+    text-align: center;
+    /* debug */
+    background-color: aqua;
+}
+
+.testimonial_intro h2 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    color: #9792E5;
+}
+
+.testimonial_card   {
+    background-color: #9792E5;
+    border-radius: 25px;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin:auto;
+    background-image: url();
+    /* debug */
+    border: 2px solid black;
+}
+
+.testimonial_review {
+    margin: 3rem; 
+}
 
 
 
