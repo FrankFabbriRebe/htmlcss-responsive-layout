@@ -26,6 +26,7 @@ header  {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 500;
 }
 
 nav {
@@ -414,6 +415,16 @@ nav {
     .benefits_cards {
         width: calc(50% - 1rem);
         margin-bottom: 0;
+    }
+
+    .about_us_container {
+        display: flex;
+        align-items: last baseline;
+    }
+
+
+    .about_us_img   {
+        height: fit-content;
     }
 
 }
