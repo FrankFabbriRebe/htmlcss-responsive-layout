@@ -290,28 +290,20 @@ nav {
     padding-top: 5rem;
     padding-bottom: 5rem;
     font-size: 2rem;
-    /* debug */
-    background-color: aqua;
 }
 
 .about_us_container {
     width: 90%;
     margin: auto;
-    /* debug */
-    border: 3px solid black;
 }
 
 .about_us_text  {
     width: 100%;
-    /* debug */
-    border: 3px solid red;
 }
 
 .about_us_img   {
     width: 100%;
     padding-top: 4rem;
-    /* debug */
-    border: 3px solid yellow;
 }
 
 .about_us_text h2   {
@@ -332,15 +324,12 @@ nav {
     position: relative;
     width: fit-content;
     display: flex;
-    /* debug */
-    background-color: blanchedalmond;
 }
 
 .about_us_circle    {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    /* debug */
     border: 2px solid black;
 }
 
@@ -366,6 +355,57 @@ nav {
 
 .linkedin_button   a {
     text-decoration: none;
+}
+
+/* it's free section  */
+.free   {
+    background-color: #9792E5;
+    padding: 5rem;
+}
+
+.free_container {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.started    {
+    color: white;
+}
+
+.simple {
+    padding-top: 5rem;
+    font-size: 3rem;
+    color: white;
+    
+}
+
+.free   {
+    font-size: 5rem;
+    padding-top: 5rem;
+    color: #FDC15E;
+}
+
+.free_container p   {
+    color: white;
+}
+
+/* get started button */
+.started_button {
+    margin: 5rem auto;
+    width: fit-content;
+    border-radius: 25px;
+    background-color: white;
+    padding: 1rem 4rem;
+}
+
+.started_button a {
+    text-decoration: none;
+    color: #9792E5;
+}
+
+.copyright  {
+    color: white;
 }
 
 /************************************
@@ -417,14 +457,16 @@ nav {
         margin-bottom: 0;
     }
 
+    /* about us section */
     .about_us_container {
         display: flex;
-        align-items: last baseline;
+        align-items:first baseline;
     }
 
 
     .about_us_img   {
         height: fit-content;
+        margin-left: 5rem;
     }
 
 }
@@ -510,5 +552,10 @@ nav {
 
     .benefits_cards {
         width: calc(100% / 3 - 1rem);
+    }
+
+    /* about us sectio */
+    .about_us_container {
+        width: 70%;
     }
 }
