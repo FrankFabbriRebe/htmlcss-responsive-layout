@@ -284,6 +284,89 @@ nav {
     color: white;
 }
 
+/* about us section */
+.about_us   {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 2rem;
+    /* debug */
+    background-color: aqua;
+}
+
+.about_us_container {
+    width: 90%;
+    margin: auto;
+    /* debug */
+    border: 3px solid black;
+}
+
+.about_us_text  {
+    width: 100%;
+    /* debug */
+    border: 3px solid red;
+}
+
+.about_us_img   {
+    width: 100%;
+    padding-top: 4rem;
+    /* debug */
+    border: 3px solid yellow;
+}
+
+.about_us_text h2   {
+    color: #9792E5;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.about_us_text p    {
+    line-height: 5rem;
+}
+
+.about_us_img {
+    text-align: left;
+}
+
+.about_us_img_top   {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    /* debug */
+    background-color: blanchedalmond;
+}
+
+.about_us_circle    {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* debug */
+    border: 2px solid black;
+}
+
+.about_us_img_top i {
+    position: absolute;
+    top: 2rem;
+    right: 0.5rem;
+}
+
+.about_us_img p {
+    color: #9792E5;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+.linkedin_button    {
+    background-color: #9792E5;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.linkedin_button   a {
+    text-decoration: none;
+}
+
 /************************************
             TABLET VERSION
 ************************************/
