@@ -174,27 +174,20 @@ nav {
 
 /* end style strategic planning section */
 
+
 /* start style testimonial section */
 .testimonials   {
     font-size: 2rem;
     padding-top: 5rem;
-    /* debug */
-    background-color: yellow;
-    height: 2000px;
 }
 
 .testimonials_container  {
     width: 90%;
     margin: auto;
-    /* debug */
-    border: 5px solid black;
-    height: 100%;
 }
 
 .testimonial_intro  {
     text-align: center;
-    /* debug */
-    background-color: aqua;
 }
 
 .testimonial_intro h2 {
@@ -225,6 +218,8 @@ nav {
 .testimonial_review {
     margin: 3rem; 
 }
+
+/* end style testimonial section */
 
 
 
@@ -334,5 +329,10 @@ nav {
     .strategy_content_b {
         width: 50%;
     
+    }
+
+    /* testiomonial section */
+    .testimonials_container {
+        width: 70%;
     }
 }
