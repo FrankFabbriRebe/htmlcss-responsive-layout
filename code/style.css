@@ -221,7 +221,36 @@ nav {
 
 /* end style testimonial section */
 
+/* bebefits section */
+.benefits_title {
+    background-color: #9792E5;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10rem;
+    padding: 5rem;
+    color: white;
+}
 
+.benefits_card_section  {
+    background-color: #9792E5;
+}
+
+.benefits_card_container    {
+    width: 90%;
+    margin: auto;
+    /* debug */
+    height: 100%;
+    border: 3px solid black;
+}
+
+.benefits_cards {
+    background-color: white;
+    border-radius: 25px;
+    width: 100%;
+    margin-bottom: 3rem;
+    /* debug */
+    height: 500px;
+}
 
 
 /************************************
